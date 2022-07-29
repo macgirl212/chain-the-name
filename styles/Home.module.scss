@@ -1,0 +1,77 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  position: relative;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.playButton {
+  border: thick double white;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(14, 107, 168, 0.4);
+  }
+}
+
+.playerForm {
+  display: flex;
+  flex-direction: column;
+
+  .playersInput {
+    font-size: 1.3rem;
+    border: 3px solid white;
+    border-radius: 6px;
+    padding: 0.4rem;
+    background-color: transparent;
+    color: white;
+  
+    &:hover,
+    &:focus {
+      background-color: rgba(14, 107, 168, 0.4);
+      outline: white;
+    }
+  }
+  
+  .submitButton {
+    margin: 2rem 1rem 0 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none solid;
+    border-color: grey;
+    font-size: 1.3em;
+    color: grey;
+    
+    &:hover,
+    &:focus {
+      border-color: white;
+      color: white;
+    }
+  }
+}
+
+.playerList {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  list-style-type: none;
+  font-size: 1.3rem;
+  background-color: rgba(0, 7, 45, 0.6);
+  height: 100%;
+
+  .player {
+    margin: 0.3rem 0;
+  }
+}

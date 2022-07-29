@@ -1,9 +1,11 @@
+// color palette comes from https://coolors.co/palette/00072d-001c55-0a2472-0e6ba8-a6e1fa
+
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(45deg, rgb(10, 36, 114), rgb(0, 28, 85));
+  color: rgb(255, 255, 255)
 }
 
 a {
@@ -13,4 +15,6 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

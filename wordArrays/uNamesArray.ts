@@ -1,0 +1,25 @@
+const uNamesArray: Array<string> = [
+	'Ucal',
+	'Uel',
+	'Ulam',
+	'Ulla',
+	'Unni',
+	'Ur',
+	'Urbanus',
+	'Uri',
+	'Uriah',
+	'Uriel',
+	'Urijah',
+	'Uthai',
+	'Uz',
+	'Uzai',
+	'Uzal',
+	'Uzza',
+	'Uzzah',
+	'Uzzi',
+	'Uzzia',
+	'Uzziah',
+	'Uzziel',
+];
+
+export default uNamesArray;
