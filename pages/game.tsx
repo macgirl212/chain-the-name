@@ -5,14 +5,8 @@ import { alphabetArray, allNamesArray } from '../wordArrays'
 import ErrorMessages from '../components/ErrorMessages';
 import PlayerList from '../components/PlayerList'
 import findName from '../components/findName';
+import initialLetter from '../components/initialLetter';
 import styles from '../styles/Game.module.scss'
-
-const initialLetterArray: string[] = ['a', 'b', 'c', 'd', 'e', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'z']
-
-// choose initial guessing letter
-const initialLetter = () => {
-    return initialLetterArray[Math.floor(Math.random() * initialLetterArray.length)]
-}
 
 const Game: NextPage = () => {
     const [calledNameList, setCalledNameList] = useState<string[]>([])
