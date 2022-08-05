@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chain the Name
 
-## Getting Started
+![Title Screen](./screenshots/title.png)
 
-First, run the development server:
+## What is this?
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This is a simple Bible name game.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Oh, it's a game! Cool. How do you play it?
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+After entering all the players' names, the game selects a letter at random. The player now have to type in a name of a Bible character that begins with that letter. The catch is that player needs to select their name wisely, because whatever is the last letter of that name becomes the first letter for the next name.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Gameplay](./screenshots/gameplay.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+For example, if player 1 has to enter a name that begins with "J", and that player enters "Jacob", the next player has to enter a name that starts with "B", for example, "Benjamin".
 
-## Learn More
+Previously entered names will appear alphabetically sorted on the left side of the screen, and active players will appear on the right side.
 
-To learn more about Next.js, take a look at the following resources:
+The game ends when all the players can no longer recall names to enter and have skipped their turn. At that point, the total length of the name chain is displayed at the end. This screen will also reveal a name that could have continued the chain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Score Screen](./screenshots/score.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## What was used to make this game?
 
-## Deploy on Vercel
+This was my first venture into TypeScript and NextJS, so those are the only two main technologies I used for this. Honestly, my code might be sloppy, but I'll be refactoring this quite a few times as I learn more best practices for TypeScript and NextJS. Stay tuned for that.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Where did you find the names to use for the name database? Will it be updated in the future?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I read a lot... The database will definitely be updated if I find names I missed.
+
+## Anything else you plan on updating in the future?
+
+I will clean up the interface to make it more visually appealing. A mobile view is in the works as well. There's also a possibility of this becoming a multiplayer game in the style of Jackbox games, using rooms to join so everyone can make their entries from their own devices.
+
+## Enough talk. How do I run this?
+
+After navigating to the folder and installing the dependencies with npm, just enter **yarn dev** and then open your browser and go to **localhost://3000**. Have fun!
