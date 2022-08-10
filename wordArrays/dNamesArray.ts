@@ -5,6 +5,7 @@ const dNamesArray: Array<string> = [
 	'Dan',
 	'Daniel',
 	'Dara',
+	'Darda',
 	'Darius',
 	'Darkon',
 	'Dathan',
