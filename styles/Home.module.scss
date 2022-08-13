@@ -75,3 +75,13 @@
     margin: 0.3rem 0;
   }
 }
+
+.endMessage {
+  font-size: 2rem;
+  text-align: center;
+
+  .endName {
+    color: yellow;
+    font-size: 2.8rem;
+  }
+}
