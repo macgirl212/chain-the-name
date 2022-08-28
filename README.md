@@ -1,6 +1,6 @@
 # Chain the Name
 
-![Title Screen](./screenshots/title.png)
+<img style="background-color: midnightblue" src="./images/Chain%20the%20Name%20Logo.png" />
 
 ## What is this?
 
@@ -10,9 +10,11 @@ This is a simple Bible name game.
 
 After entering all the players' names, the game selects a letter at random. The player now have to type in a name of a Bible character that begins with that letter. The catch is that player needs to select their name wisely, because whatever is the last letter of that name becomes the first letter for the next name.
 
-![Gameplay](./screenshots/gameplay.png)
+![Title Screen](./screenshots/title.png)
 
 For example, if player 1 has to enter a name that begins with "J", and that player enters "Jacob", the next player has to enter a name that starts with "B", for example, "Benjamin".
+
+![Gameplay](./screenshots/gameplay.png)
 
 Previously entered names will appear alphabetically sorted on the left side of the screen, and active players will appear on the right side.
 
