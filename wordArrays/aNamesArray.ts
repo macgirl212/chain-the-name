@@ -9,6 +9,7 @@ const aNamesArray: Array<string> = [
 	'Abdon',
 	'Abednego',
 	'Abel',
+	'Abi',
 	'Abi-albon',
 	'Abiasaph',
 	'Abiathar',
